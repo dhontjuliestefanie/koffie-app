@@ -1,0 +1,47 @@
+[
+    {
+        "naam": "Gran Maestro Italiano",
+        "gewicht": "1 kg",
+        "type": "Koffiebonen",
+        "prijs": 22.95,
+        "beschrijving": "De Gran Maestro Italiano Originale is een medium roast van 100% arabica bonen en is afkomstig uit de beste koffiegebieden van Colombia en Brazilië.",
+        "korting": 44,
+        "foto": "assets/images/granmaestro.jpg"
+    },
+    {
+        "naam": "Illy Classico",
+        "gewicht": "250 g",
+        "type": "Koffiebonen",
+        "prijs": 8.19,
+        "beschrijving": "De kwaliteitskoffie van illy is nog nooit zo voordelig geprijsd. De illy Normale Branding bestaat uit 9 zuivere Arabicasoorten. Volgens koffiekenners is dit dé ideale koffie, ervaar nu thuis de fluweelzachte smaak van deze exclusieve koffiebonen",
+        "korting": 25,
+        "foto": "assets/images/illy.jpg"
+    },
+    {
+        "naam": "Segafredo Espresso Casa",
+        "gewicht": "250 g",
+        "type": "Gemalen koffie",
+        "prijs": 3.75,
+        "beschrijving": "De Casa Espresso Gemalen is een mooie blend van heerlijke Arabica's en krachtige Robusta's uit Brazilië, Costa Rica, Colombia en Ivoorkust. De geuren en aroma's zullen u verrassen. Probeer deze prachtige melange.",
+        "korting": 24,
+        "foto": "assets/images/segafredo.jpg"
+    },
+    {
+        "naam": "Lavazza Crema e Gusto",
+        "gewicht": "250 g",
+        "type": "Gemalen koffie",
+        "prijs": 4.55,
+        "beschrijving": "De Lavazza Crema e Gusto is een pittige Italiaanse koffie. Het is een mooie melange van Arabica en Robusta koffiebonen uit Zuid-Amerika, India en Indonesië. De bonen zijn medium/donker gebrand, hebben een hoge intensiteit en bevatten tonen van chocolade. Een uitstekende prijs-kwaliteitsverhouding.",
+        "korting": 12,
+        "foto": "assets/images/lavazza.jpg"
+    },
+    {
+        "naam": "Celeste d'Oro",
+        "gewicht": "252 g",
+        "type": "Senseo compatibel",
+        "prijs": 6.19,
+        "beschrijving": "De Finest Classic is er voor de koffiedrinker die van verfijnde en zoetzachte smaken houdt. Een perfecte doordrinker met subtiele opwekkende hinten van zachte citrus en laurier. De geur en smaak vloeien mooi in elkaar over tot aan de zachte afdronk die het hart van iedere koffieliefhebber bekoort. Een tijdloze smaak, lekker op ieder moment van de dag.",
+        "korting": 32,
+        "foto": "assets/images/celestedoro.jpg"
+    }
+]

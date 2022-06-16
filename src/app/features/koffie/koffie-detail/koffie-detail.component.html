@@ -1,0 +1,20 @@
+<div class="container">
+    <div *ngIf="koffie">
+        <div class="row">
+            <div class="col-md-5">
+                <img src="{{koffie.foto}}" alt="{{koffie.naam}}" height="300px">
+                <h1>Koffie:</h1>
+                <b>Naam:</b> {{koffie.naam}}<br>
+                <b>Type:</b> {{koffie.type}}<br>
+                <b>Gewicht:</b> {{koffie.gewicht}}<br>
+                <b>Beschrijving: </b> {{koffie.beschrijving}}<br>
+                <b>Prijs: </b> {{koffie.prijs}}<br>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <div>
+        Aantal: <input type="number" #aantal (change)="berekenTotaal(aantal.value)" value="1" min="1"><br>
+        <b>Totaalprijs: </b> {{totaal | currency:euroteken:'symbol' : '1.1-3'}}<br>
+    </div>
+</div>

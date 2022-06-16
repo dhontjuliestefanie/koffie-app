@@ -1,0 +1,12 @@
+<br>
+<app-koffie-filter (naamKoffie)="filteren($event)"></app-koffie-filter> <br> <br>
+<app-type-filter (typeKoffie)="filterOpType($event)"></app-type-filter>
+
+<div class="products">
+    <div *ngFor="let koffie of gefilterdeKoffies" class="productBox" (click)="onSelect(koffie)">
+        <img src="{{koffie.foto}}" alt="{{koffie.naam}}" height="150px">
+        <h2>{{koffie.naam}}</h2>
+        <p>{{koffie.type}} - {{koffie.gewicht}}</p>
+        <span class="redText">{{koffie.prijs | currency:euroteken}}</span>
+    </div>
+</div>
